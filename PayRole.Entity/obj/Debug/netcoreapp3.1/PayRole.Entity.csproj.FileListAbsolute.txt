@@ -1,0 +1,8 @@
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\bin\Debug\netcoreapp3.1\PayRole.Entity.deps.json
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\bin\Debug\netcoreapp3.1\PayRole.Entity.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\bin\Debug\netcoreapp3.1\PayRole.Entity.pdb
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\obj\Debug\netcoreapp3.1\PayRole.Entity.csprojAssemblyReference.cache
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\obj\Debug\netcoreapp3.1\PayRole.Entity.AssemblyInfoInputs.cache
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\obj\Debug\netcoreapp3.1\PayRole.Entity.AssemblyInfo.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\obj\Debug\netcoreapp3.1\PayRole.Entity.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Entity\obj\Debug\netcoreapp3.1\PayRole.Entity.pdb

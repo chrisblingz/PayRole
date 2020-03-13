@@ -1,0 +1,13 @@
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Services.deps.json
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Services.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Services.pdb
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Entity.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Persistence.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Entity.pdb
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\bin\Debug\netcoreapp3.1\PayRole.Persistence.pdb
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\obj\Debug\netcoreapp3.1\PayRole.Services.csprojAssemblyReference.cache
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\obj\Debug\netcoreapp3.1\PayRole.Services.AssemblyInfoInputs.cache
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\obj\Debug\netcoreapp3.1\PayRole.Services.AssemblyInfo.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\obj\Debug\netcoreapp3.1\PayRole.Services.csproj.CopyComplete
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\obj\Debug\netcoreapp3.1\PayRole.Services.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole.Services\obj\Debug\netcoreapp3.1\PayRole.Services.pdb
