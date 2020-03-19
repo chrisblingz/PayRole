@@ -178,5 +178,65 @@ namespace PayRole.Controllers
             }
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Detail(int Id)
+        {
+            var empolyee = _employeeService.GetById(Id);
+            if(empolyee == null)
+            {
+                return NotFound() ;
+            }
+            var model = new EmployeeDetailViewModel()
+            {
+                Id = empolyee.Id,
+                EmployeeNo = empolyee.EmployeeNo,
+                FullName = empolyee.FullName,
+                Gender = empolyee.Gender,
+                Email = empolyee.Email,
+                DOB = empolyee.DOB,
+                DateJoined = empolyee.DateJoined,
+                NationalInsuranceNo = empolyee.NationalInsuranceNo,
+                PaymentMethod = empolyee.PaymentMethod,
+                StudentLoan = empolyee.StudentLoan,
+                UnionMemeber = empolyee.UnionMemeber,
+                Address = empolyee.Address,
+                City = empolyee.City,
+                Phone = empolyee.Phone,
+                PostCode = empolyee.PostCode,
+                Designation = empolyee.Designation,
+                ImageUrl = empolyee.ImageUrl
+            };
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int Id)
+        {
+            var employee = _employeeService.GetById(Id);
+            if(employee == null)
+            {
+                return NotFound();
+            }
+            var model = new EmployeeDeleteViewModel()
+            {
+                Id = employee.Id,
+                FullName = employee.FullName
+            }; 
+
+            return View(model);
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteAsync(EmployeeDeleteViewModel model)
+        {
+           await _employeeService.Delete(model.Id);
+
+            return RedirectToAction(nameof(Index));
+        } 
+
     }
 }
