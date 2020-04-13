@@ -158,3 +158,6 @@ C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\zh-Han
 C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\PayRole.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\PayRole.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
