@@ -11,6 +11,8 @@ namespace PayRole.Services.Implementation
     public class EmployeeService : IEmployeeService
     {
         private readonly ApplicationDbContext _context;
+        private decimal studentLoanAmout;
+
         public EmployeeService(ApplicationDbContext context)
         {
             _context = context;
@@ -51,9 +53,31 @@ namespace PayRole.Services.Implementation
         }
 
 
-        public decimal StudentLoadRepaymentAmoun5(int id, decimal totalAmount)
+        public decimal StudentLoadRepaymentAmount(int id, decimal totalAmount)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            if(employee.StudentLoan == StudentLoan.Yes && totalAmount > 1750 && totalAmount < 2000)
+            {
+                studentLoanAmout = 15m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount > 2000 && totalAmount < 2250)
+            {
+                studentLoanAmout = 38m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2250 && totalAmount < 2500)
+            {
+                studentLoanAmout = 60m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2500)
+            {
+                studentLoanAmout = 83m;
+            }
+            else
+            {
+                studentLoanAmout = 0.0m;
+            }
+            return studentLoanAmout;
+
         }
 
         public decimal UnionFees(int Id)

@@ -20,7 +20,7 @@ namespace PayRole.Services
 
         decimal UnionFees(int Id);
 
-        decimal StudentLoadRepaymentAmoun5(int id, decimal totalAmount);
+        decimal StudentLoadRepaymentAmount(int id, decimal totalAmount);
 
         IEnumerable<Employee> GetAll();
     }
