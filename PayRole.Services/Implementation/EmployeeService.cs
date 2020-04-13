@@ -82,7 +82,10 @@ namespace PayRole.Services.Implementation
 
         public decimal UnionFees(int Id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(Id);
+            var fee = employee.UnionMemeber == UnionMemeber.Yes ? 10m : 0m;
+
+            return fee;
         }
 
 
