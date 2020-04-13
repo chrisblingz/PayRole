@@ -161,3 +161,11 @@ C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\PayRol
 C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
 C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
 C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Detail.cshtml.g.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\ChrisBlingz\Source\Repos\PayRole\PayRole\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
