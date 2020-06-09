@@ -22,6 +22,8 @@ namespace PayRole.Entity
 
         public DateTime PayDate { get; set; }
 
+        public string PayMonth { get; set; }
+
         [ForeignKey("TaxYear")]
         public int TaxYearId { get; set; }
 

@@ -97,5 +97,10 @@ namespace PayRole.Services.Implementation
         {
             return overtimeEarnings + contractualEarnings;
         }
+
+        public TaxYear GetTaxYearById(int id)
+        {
+            return _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
+        }
     }
 }
