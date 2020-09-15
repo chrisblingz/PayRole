@@ -1,4 +1,5 @@
-﻿using PayRole.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using PayRole.Entity;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,5 +24,6 @@ namespace PayRole.Services
         decimal StudentLoadRepaymentAmount(int id, decimal totalAmount);
 
         IEnumerable<Employee> GetAll();
+        IEnumerable<SelectListItem> GetAllEmployeesForPayroll();
     }
 }

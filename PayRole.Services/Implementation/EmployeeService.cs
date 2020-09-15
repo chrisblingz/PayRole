@@ -1,4 +1,5 @@
-﻿using PayRole.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using PayRole.Entity;
 using PayRole.Persistence;
 using System;
 using System.Collections.Generic;
@@ -88,6 +89,13 @@ namespace PayRole.Services.Implementation
             return fee;
         }
 
-
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            });
+        }
     }
 }
